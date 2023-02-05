@@ -1,0 +1,50 @@
+.cardHeading {
+    width: 95%;
+    height: 93%;
+    border: 0.1px solid #3e3d3d;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .cardHeader {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #c9d1d9;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+  }
+  
+  
+  a{
+    color:rgb(85, 85, 202);
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  #CardText {
+    padding-left: 15px;
+    font-size:15px ;
+    color: #939698;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+  }
+  .cardHeader:hover{
+    color: #5353fc;
+  }
+  .PointText{
+    display: flex;
+    font-size: 16px;
+    padding: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+  }
+  #MessageDiv{
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  

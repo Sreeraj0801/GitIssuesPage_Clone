@@ -1,0 +1,32 @@
+.filter-container {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 60%;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 16px;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .filter-button {
+    background-color:#21262d;
+    color:#c9d1d9;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+  }
+  
+  .filter-button:hover {
+    border: 1px solid white;
+  }
+  

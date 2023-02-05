@@ -1,0 +1,21 @@
+.container {
+    margin-left: 3%;
+    display: flex;
+  }
+  
+  .segment {
+    border: 1px solid grey;
+    padding: 10px;
+    flex-grow: 1;
+    color: white;
+    border-radius: 5px;
+    width:10rem;
+    height:40px;
+    font-weight:400;
+  }
+  
+  
+  .segment:hover {
+    border: 1px solid rgb(245, 239, 239);
+  }
+  

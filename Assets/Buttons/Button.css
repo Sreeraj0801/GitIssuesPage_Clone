@@ -1,0 +1,45 @@
+#watchButton,#ForkButton,#StarButton{
+    width: 10rem;
+    height: 2rem;
+    background-color:#272e36;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+
+#watchButton:hover,#ForkButton:hover ,#StarButton:hover{
+    border: 2px solid white;
+    background-color:#3c4550;
+  }
+
+#textWatch,#ForkText,#StarText{
+font-size: 12px;
+color: #c9d1d9;
+}
+#watchCount,#forkCount,#starCount{
+    background-color:#79797a;
+    color: white;
+    border-radius:2rem;
+    border: none;
+}
+.dropDown{
+    width: 1rem;
+    height: 2rem;
+    background-color:#272e36;
+    border: 1px solid rgb(183, 183, 183);
+    margin-left: -12%;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+.dropDown:hover{
+    border: 1px solid white;
+    background-color:#3c4550;
+}

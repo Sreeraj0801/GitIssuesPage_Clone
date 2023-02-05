@@ -1,0 +1,14 @@
+#GridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 2%;
+  }
+  
+
+  @media (max-width<=1000px) {
+    #GridContainer {
+      grid-template-columns: 1fr;
+      margin-left: 40px;
+    }
+  }
+  
